@@ -7,7 +7,7 @@
 % Load a light probe image.
 F = rgb2gray(im2double(imread('pisa.png')));
 % List of spherical harmonic orders.
-lList = [0 1 2 5 11 21 31 51];
+lList = [0 1 2 3 5 11 21 31];
 % Perform decomposition on highest order.
 [c, l, m] = DecomposeSphericalFcn(F, max(lList), [], [], 1);
 % Plot the results, ground truth first.
