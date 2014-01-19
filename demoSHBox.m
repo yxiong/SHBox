@@ -11,7 +11,7 @@ lList = [0 1 2 5 11 21 31 51];
 % Perform decomposition on highest order.
 [c, l, m] = DecomposeSphericalFcn(F, max(lList), [], [], 1);
 % Plot the results, ground truth first.
-[nRows, nCols] = subplotRowsColsGivenAllNum(length(lList)+1);
+[nRows, nCols] = NumSubplotRowsColsFromTotal(length(lList)+1);
 figure;
 subplot(nRows, nCols, 1);
 imshow(F, []);

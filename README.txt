@@ -10,8 +10,8 @@ Release: Jan 17, 2014 (v0.1).
 Quick start.
 ================================================================
 >> addpath('Utils');
->> SphericalHarmonicsTest;
->> demoSphericalHarmonics;
+>> SHBoxTest;
+>> demoSHBox;
 
 ================================================================
 Definitions.
