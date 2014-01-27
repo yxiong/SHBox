@@ -52,8 +52,16 @@ If 'lTheta' and 'lPhi' are scalars, they will be converted to
   lPhi = linspace(-pi, pi, lPhi).
 
 ================================================================
-Other notes.
+Features.
 ================================================================
+* Generate real and complex spherical harmonic functions.
+* Visualize spherical functions.
+* Inner product in spherical space.
+* Decompose spherical function into spherical harmonic components.
+
 See 'SphericalHarmonics.pdf' for a more detailed documentation.
 
+================================================================
+Other notes.
+================================================================
 The 'pisa.png' file is a light probe image downloaded from http://gl.ict.usc.edu/Data/HighResProbes/ and modified (tone-mapped and resized) by Ying Xiong.

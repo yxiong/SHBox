@@ -1,0 +1,8 @@
+Jan 17, 2014 (v0.1) ---
+  Add real spherical harmonics.
+  Add test files and make clear the convention.
+  Add more documentation.
+
+Jul 21, 2013 ---
+  Create the library.
+  Implement basic utilities.

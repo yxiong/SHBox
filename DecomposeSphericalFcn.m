@@ -35,9 +35,7 @@ m = zeros((L+1)^2, 1);
 
 for il = 0:L
   if (verbose == 1)
-    fprintf(repmat(sprintf('\b'), [1, 40]));
-    fprintf('DecomposeSphericalFcn: l = %d / %d...', il, L);
-    if (il == L)   fprintf('\n');   end
+    ShowProgress(il, L, 1, 'DecomposeSphericalFcn', 1);
   end
   l(il^2 + (1:2*il+1)) = il;
   m(il^2 + (1:2*il+1)) = -il:il;
